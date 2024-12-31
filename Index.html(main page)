@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Paradise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Anime Paradise</h1>
+        <nav>
+            <a href="#popular">Popular Anime</a>
+            <a href="#trailers">Anime Trailers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="popular">
+            <h2>Popular Anime</h2>
+            <div class="anime-list">
+                <div class="anime-item">
+                    <img src="images/naruto.jpg" alt="Naruto">
+                    <h3>Naruto</h3>
+                </div>
+                <div class="anime-item">
+                    <img src="images/onepiece.jpg" alt="One Piece">
+                    <h3>One Piece</h3>
+                </div>
+                <div class="anime-item">
+                    <img src="images/demonslayer.jpg" alt="Demon Slayer">
+                    <h3>Demon Slayer</h3>
+                </div>
+            </div>
+        </section>
+        <section id="trailers">
+            <h2>Anime Trailers</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime Paradise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
